@@ -1,3 +1,5 @@
 import React from 'react';
 import ReactDom from 'react-dom';
-ReactDom.render(<div>Hola mundo</div>,document.getElementById ('root'));
+import 'bootstrap/dist/css/bootstrap.min.css';
+import App from './App';
+ReactDom.render(<App/>,document.getElementById ('root'));
